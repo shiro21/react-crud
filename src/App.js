@@ -8,8 +8,9 @@ import Main from './components/main/Main';
 import './App.css';
 
 function App() {
+  const url = process.env.PUBLIC_URL;
   return (
-    <Router>
+    <Router basename={url}>
       <Routes>
         <Route path={`/`} element={ <Main /> } />
       </Routes>
