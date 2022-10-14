@@ -1,0 +1,74 @@
+// page
+.main_title {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+
+// component
+#main_contents {
+    width: 100%;
+    > ul {
+        width: 100%;
+        max-width: 510px;
+        .title {
+            font-size: .9rem;
+            font-weight: 700;
+            border-bottom: 1px solid #DDD;
+            padding: .8rem 0;
+            > span { margin-left: 20px; font-size: .7rem; font-weight: 500; display: inline-block; width: 80px; border: 1px solid #DDD; text-align: center; cursor: pointer; }
+            > div {
+                font-size: .7rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .d_f {
+        display: flex;
+        // form data
+        .form_data {
+            margin: 2rem 1rem 2rem 0;
+            > input {
+                width: 250px;
+                height: 36px;
+                margin-bottom: 1rem;
+                padding: 0 .5rem;
+            }
+            > textarea {
+                resize: none;
+                width: 250px;
+                height: 200px;
+                padding: .5rem;
+            }
+            > button {
+                width: 250px;
+                height: 36px;
+                margin-top: 1rem;
+                border: 1px solid #23FA23;
+            }
+        }
+    
+        // default data
+        .default_data {
+            margin: 2rem 0;
+            > input {
+                width: 250px;
+                height: 36px;
+                margin-bottom: 1rem;
+                padding: 0 .5rem;
+            }
+            > textarea {
+                resize: none;
+                width: 250px;
+                height: 200px;
+                padding: .5rem;
+            }
+            > button {
+                width: 250px;
+                height: 36px;
+                margin-top: 1rem;
+                border: 1px solid #23FA23;
+            }
+        }
+    }
+}
